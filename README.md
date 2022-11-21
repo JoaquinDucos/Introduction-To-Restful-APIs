@@ -2,4 +2,4 @@
 **Testing and learning to develop Restful API's**
 
 Frameworks & Tools:
-                    Node.js, Express and Insomnia for client request testing.
+                    Node.js, Express and Insomnia for interactive client request-response interface.
