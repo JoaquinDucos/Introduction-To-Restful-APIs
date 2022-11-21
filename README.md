@@ -1,4 +1,4 @@
-# Introduction-To-Restful-Api-s
+# Introduction-To-Restful-Api's
 **Testing and learning to develop Restful API's**
 
 Frameworks & Tools:
