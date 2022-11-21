@@ -66,7 +66,7 @@ app.get('/tshirt', (req, res) => {  //Tenemos acceso a dos objetos
 app.post('/tshirt/:id', (req, res) => {
 
     const { id } = req.params;
-    const { logo } = req.body;  //El problema es que express no parsea json por default. Necesitamos un middleware para realizar el parsing.
+    const { logo } = req.body;  //El problema es que express no parsea el body a json por default. Necesitamos un middleware para realizar el parsing.
 
     if (!logo) {
         res.status(418).send({message: 'We need a logo!'})
